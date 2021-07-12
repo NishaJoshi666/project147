@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ROOM</title>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            
+            <a-entity>
+                <a-camera position = "-10 5 42"></a-camera>
+            </a-entity>
+
+            <!-- <a-sky color = 'lightblue'/> -->
+
+            <a-plane position = '-8.9 0 0' width = 52 height = 50 src = 'https://previews.123rf.com/images/sasinparaksa/sasinparaksa1702/sasinparaksa170200072/71993063-wood-texture-background-seamless-wood-floor-texture.jpg' rotation = '-90 0 0'></a-plane>
+            <a-plane position = '-8.9 10 -25' width = 52 height = 20 src = 'https://images.unsplash.com/photo-1520758594221-872948699332?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80' rotation = '0 0 0'></a-plane>
+            <a-plane position = '-35 10 0' width = 50 height = 20 color = 'gray' rotation = '0 90 0'></a-plane>
+            <a-plane position = '17 10 0' width = 50 height = 20 color = 'gray' rotation = '0 -90 0'></a-plane>
+            <a-plane position = '-8.9 20 0' width = 52 height = 50 src = 'https://i.pinimg.com/originals/7c/51/0a/7c510af12b40ff3d635b48cf7118f9b7.png' rotation = '90 0 0'></a-plane>
+
+            <!--SOFA-->
+            <a-box  position = '12.3 3 0' width = 23 height = 5 rotation = '20 90 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box> 
+            <a-box  position = '10 1 -2.5' depth = '2' width = 20 height = 5 rotation = '90 90 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box>
+            <a-box  position = '7.5 1 10' depth = '2' width = 10 height = 5 rotation = '90 0 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box>
+
+            <!--table-->
+            <a-box position = '-25.4 5 -4' width = 10 height = 10 rotation = '90 0 0' src = 'https://i.pinimg.com/originals/2a/48/14/2a481410bfd8b35d1ba52781133e3951.jpg'></a-box>
+            <a-cylinder position = '-25.4 3 -4' radius = '0.3' height = '4' color = 'white'></a-cylinder>
+            <a-cylinder position = '-25.4 1 -4' color = 'white' radius = '2' height = '0.5'></a-cylinder>
+            <a-box position = '2 2.2 -2' depth = '0.5' width = 5 height = 12 rotation = '90 0 0' src = 'https://live.staticflickr.com/6/8432331_e55a2a25f5_n.jpg'></a-box>
+            <a-cylinder position = '2 1.3 -2' radius = '2' height = '2' color = 'brown'></a-cylinder>
+            
+            <!--chair-->
+            <a-box position = '-29 1 -19' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '-29 1 -2' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '-20 1 -10' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '4 1 -13' color="tomato" depth="4" height="2" width="4"></a-box>
+            <a-box position = '-1.5 1 -13' color="tomato" depth="4" height="2" width="4"></a-box>
+
+            <!--tv-->
+            <a-box position = '1.5 9 -25' scr = 'https://www.sony.co.in/image/55e21efdd91eb3d11331e16a46ed7e90?fmt=png-alpha&wid=1014&hei=396' depth = '0.1' width = '17' height = '9'></a-box>
+
+            <!-- light -->
+            <a-cylinder position = '-8 20 0' radius = '0.3' height = '15' color = 'pink'></a-cylinder>
+            <a-cone position = '-8 14.5 0' color = 'pink' radius-bottom = '4' radius-top = '0.6' height = '3'></a-cone>
+            <a-sphere position = '-8 12 1' radius = '1.5' color = 'yellow'></a-sphere>
+
+        </a-scene>
+    </body>
+</html>
